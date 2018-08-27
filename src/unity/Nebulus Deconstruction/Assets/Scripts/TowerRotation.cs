@@ -13,8 +13,7 @@ public class TowerRotation : MonoBehaviour {
 
     private void Awake()
     {
-        _material = GetComponent<MeshRenderer>().material;
-        
+        _material = GetComponent<MeshRenderer>().material;    
     }
 
     private void Update()
